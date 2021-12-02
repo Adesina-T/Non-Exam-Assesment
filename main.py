@@ -24,6 +24,7 @@ screen_shake = 0
 
 def main_game_text():
     test_font = pygame.font.Font('C:/Users/Samue/Desktop/pcdynasty/fonts/greed.ttf', 50)
+    # will be changed to just greed.ttf
     text = test_font.render('Greed Island', False, 'Red')
     text_rect = text.get_rect(center=(780, 100))
     screen.blit(text, text_rect)
